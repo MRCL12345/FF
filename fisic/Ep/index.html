@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="description" content="">
+  <link rel="shortchut icon" type="image/svg" href="../../img/menu/icono.svg">
+  <title>FormuFisic</title>
+  <!--PWA-->
+  <link rel="apple-touch-icon" href="../../img/menu/icono.svg">
+  <link rel="apple-touch-startup-image" href="../../img/menu/icono.svg">
+  <link rel="manifest" href="../../manifest.json">
+  <!--Style-->
+  <link rel="stylesheet" href="../../style/general.css">
+  <link rel="stylesheet" href="../../style/menu.css">
+  <link rel="stylesheet" href="../../style/fisic.css">
+</head>
+
+<body>
+  <style>
+    .head {
+      background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://imgs.search.brave.com/gXR-cGU3pnc00sQ1ZCYd-KYsRNBlPcyhEBKvGmoiEIY/rs:fit:1200:800:1/g:ce/aHR0cDovL21pcnJv/ci5za2FtYXNsZS5j/b20vaW1nL2VkaWZp/Y2lvcmFzY2FjaWVs/b3MxLmpwZw");
+      background-position: center center;
+      background-size: cover;
+    }
+  </style>
+  <section class="nav">
+    <ul>
+      <li class="list active">
+        <a href="../../index.html">
+          <div class="ind"></div>
+          <span class="icon">
+            <ion-icon name="home-outline"></ion-icon>
+          </span>
+          <span class="txt">Inicio</span>
+        </a>
+      </li>
+      <li class="list">
+        <a href="../../calculator.html">
+          <span class="icon">
+            <ion-icon name="calculator-outline"></ion-icon>
+          </span>
+          <span class="txt">Calculador</span>
+        </a>
+      </li>
+      <li class="list">
+        <a href="../../support.html">
+          <span class="icon">
+            <ion-icon name="cog-outline"></ion-icon>
+          </span>
+          <span class="txt">Soporte</span>
+        </a>
+      </li>
+    </ul>
+  </section>
+  <!---->
+  <section class="content">
+    <div class="head">
+      <div class="title">
+        <h1>Energía Potencial</h1>
+      </div>
+    </div>
+    <div class="date">
+      <div class="txt">
+        <p>
+          La energía potencial es aquella energía que esta dentro de un cuerpo que esta sin moverse y la altura en la
+          que este el
+          cuerpo variara su energía potencial, cuando tu estas en el suelo parado, tienes una energía potencial de 0
+          porque no
+          estas a una altura, estas en el suelo, pero cuando entras a un edificio y te vas hasta el ultimo piso a mirar
+          el
+          paisaje, tu energía potencial será mayor a 0 porque ya existe una altura entre tu y el suelo. Como dato puedes
+          saber que
+          cuando en Fisica encuentras una abreviación como esta (Epg) significa Energía potencial gravitacional, que en
+          realidad
+          es la misma fórmula y la misma operación que la Energía potencial.
+        </p>
+      </div>
+      <table class="table_ex">
+        <tr>
+          <td><span class="t1">Ep</span> = <span class="t2">m</span> · <span class="t3">h</span> · <span
+              class="t4">g</span></td>
+        </tr>
+        <tr>
+          <td><span class="t1">EnergíaPotencial</span> = <span class="t2">masa</span> · <span class="t3">altura</span> ·
+            <span class="t4">gravedad</span>
+          </td>
+        </tr>
+        <tr>
+          <td><span class="unidad">su unidad es el Joule (J)</span></td>
+        </tr>
+      </table>
+      <div class="txt">
+        Para medir la Energia Potencial de un cuerpo necesitamos 3 datos, su masa, la altura en la que esta y la
+        gravedad (la
+        gravedad no cambiara su valor, la gravedad es la fuerza que ejerce la tierra para atraer a los cuerpos al suelo,
+        es como
+        una aceleración), una vez con estos datos los multiplicamos y listo. Ahora si una cabra esta parada en lo alto
+        de un
+        risco que mide 20m de altura, y la cabra tiene una masa de 30kg ¿Cuál será su Energía Potencial?
+        <span class="imp">PDT: El valor de la gravedad en la tierra es de 9.81m/s²</span>
+      </div>
+      <div class="table_title">
+        <h3>Tabla</h3>
+      </div>
+      <table class="table">
+        <tr>
+          <th>Datos</th>
+          <th>Fórmula</th>
+          <th>Operación</th>
+          <th>Resultado</th>
+        </tr>
+        <tr>
+          <td><span class="t3">m = 30kg</span></td>
+          <td rowspan="2"><span class="t1">Ep</span> = <span class="t2">m</span> · <span class="t3">h</span> · <span
+              class="t4">g</span></td>
+          <td rowspan="2"><span class="t1">Ep</span> = <span class="t2">30kg</span> · <span class="t3">20m</span> ·
+            <span class="t4">9.81m/s²</span>
+          </td>
+          <td rowspan="2"><span class="t1">Ep = 5886J</span></td>
+        </tr>
+        <tr>
+          <td><span class="t2">h = 20m</span></td>
+        </tr>
+      </table>
+    </div>
+  </section>
+  <!--Scripts-->
+  <!--PWA-->
+  <!-- <script src="../../script.js"></script>
+  <script src="../../sw.js"></script> -->
+  <!--IONICONS-->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
